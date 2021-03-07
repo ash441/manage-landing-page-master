@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 16px;
+}
+
+
+/* header section */
+
+header {
+    display: flex;
+    width: auto;
+    height: 100px;
+    justify-content: space-between;
+}
+
+h1,
+h2,
+h3 {
+    color: hsl(228, 39%, 23%);
+}
+
+p {
+    color: hsl(227, 12%, 61%);
+}
+
+.button {
+    color: #fff;
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 30px;
+    padding: 5px 15px 5px 15px;
+    border: 0px;
+}
+
+.logo {
+    background-image: url("/images/logo.svg");
+    width: 200px;
+    height: auto;
+    background-repeat: no-repeat;
+}
+
+.hamburger-menu {
+    width: 50px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.first,
+.second,
+.third {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+
+/* home section  */
+
+.home-content h1 {
+    color: hsl(228, 39%, 23%);
+}
+
+.home-illustration img {
+    width: 300px;
+}
+
+
+/* about section  */
+
+
+/* testomonial section  */
+
+
+/* get started sectin  */
+
+
+/* footer section  */
