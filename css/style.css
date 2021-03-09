@@ -8,6 +8,7 @@
 }
 
 
+
 /* header section */
 
 header {
@@ -15,6 +16,8 @@ header {
     width: auto;
     height: 100px;
     justify-content: space-between;
+    
+   
 }
 
 h1,
@@ -31,8 +34,9 @@ p {
     color: #fff;
     background-color: hsl(12, 88%, 59%);
     border-radius: 30px;
-    padding: 5px 15px 5px 15px;
+    padding: 5px 15px 10px 15px;
     border: 0px;
+   
 }
 
 .logo {
@@ -40,19 +44,29 @@ p {
     width: 200px;
     height: auto;
     background-repeat: no-repeat;
+    position: relative;
+    top: 30px;
+    left: 70px;
 }
 
 .hamburger-menu {
     width: 50px;
-    display: inline-block;
+    position: relative;
+    top: 25px;
+    left: 30px;
+   
     cursor: pointer;
+}
+
+nav ul li {
+    display: none;
 }
 
 .first,
 .second,
 .third {
-    width: 35px;
-    height: 5px;
+    width: 25px;
+    height: 2px;
     background-color: #333;
     margin: 6px 0;
     transition: 0.4s;
@@ -60,23 +74,134 @@ p {
 
 
 /* home section  */
+.home {
 
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.home-content {
+    width: 80%;
+}
 .home-content h1 {
     color: hsl(228, 39%, 23%);
+    font-size: 30px;
+    text-align: center;
+    
+
+}
+
+.home-content p {
+
+    font-size: 13px;
+    text-align: center;
+
 }
 
 .home-illustration img {
     width: 300px;
 }
 
+.home-button {
+
+    position: relative;
+    left: 30%;
+    margin: 10px auto;
+  
+  
+}
+
 
 /* about section  */
+
+.about {
+    display: flex;
+    flex-direction: column;
+ 
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    left: 15%;
+    width: 70%;
+    
+   
+   
+}
+
+span {
+    background-color:  hsl(12, 88%, 59%);
+    padding: 5px 20px;
+    border-radius: 20px;
+    float: left;
+}
+
+.about h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.about-p {
+
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.about h3 {
+    background-color: hsl(13, 100%, 96%);
+    font-size: 12px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+
 
 
 /* testomonial section  */
 
+.testomonial {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    position: relative;
+    left: 15%;
+}
+
+.testomonial-btn {
+    margin-bottom: 10px;
+}
+
+
 
 /* get started sectin  */
 
+.get-started {
+    background-color:hsl(12, 88%, 59%) ;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 375px;
+    height: 300px;
+    text-align: center;
+    padding-top: 70px;
+    
+}
+
+.get-started h2 {
+
+    font-size: 40px;
+    padding: 0px 20px;
+}
+
+.get-started-btn {
+    background-color: #fff;
+    color: black;
+    padding: 10px 20px;
+}
 
 /* footer section  */
