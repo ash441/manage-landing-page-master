@@ -6,17 +6,15 @@ const nav_element = document.querySelector('.navbar');
 var is_open = false;
 
 function toggle() {
-
-    if(is_open === false){
-
-        nav_element.classlist.add('open');
+    if(!is_open){
+        
+        nav_element.classList.add('open');
+        is_open = true;
     }
     else{
-
-        nav_element.classlist.remove('open');
-
+        nav_element.classList.remove('open');
+        is_open = false;
     }
-
 }
 
   menu_btn.addEventListener('click', toggle);
